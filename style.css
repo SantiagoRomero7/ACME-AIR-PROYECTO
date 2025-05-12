@@ -141,4 +141,17 @@
   font-size: 1rem;
 }
 
-  
+ .registro-container{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 20px; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+ }
+
+ .logoregistro img{
+  width: 200px;
+  margin-bottom: 5px; 
+}
