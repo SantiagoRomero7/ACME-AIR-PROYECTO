@@ -679,3 +679,23 @@ body {
   border-radius: 10px;
   cursor: pointer;
 }
+
+/*MIS VUELOS CSS*/
+
+.misvuelos-container{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 20px; 
+  box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+ 
+.logomisvuelos img{
+  width: 200px;
+  margin-bottom: 5px; 
+}
