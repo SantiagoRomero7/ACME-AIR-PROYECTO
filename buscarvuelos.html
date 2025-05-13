@@ -14,10 +14,56 @@
     </div>
 
     <div class="mobile-only">
-        <section class="login-container">
-            <div class="logo">
+        <section class="buscarvuelos-container">
+            <div class="logobuscarvuelos">
                 <img src="imagenlogo.png" alt="logo ACME AIR">
             </div>
+    <div class="user-info">
+        <span class="user-name">Santiago Romero</span>
+        <br>
+        <a href="./index.html" class="cerrarsesion">Cerrar Sesion</a>
+    </div>
+
+    <main class="seccion-busqueda">
+        <h1 class="search-tittle">Busqueda de Vuelos</h1>
+
+        <div class="trip-type">
+            <label class="radio-option">
+                <input type="radio" name="trip-type">
+                <span>Solo ida</span>
+
+        <div class="trip-type">
+            <label class="radio-option">
+                <input type="radio" name="trip-type">
+                <span>Ida y vuelta</span>
+            </label>
+        </div>
+
+<form action="./vuelosdisponibles.html" method="get" novalidate>
+
+    <label for="origen"></label>
+    <input type="text" name="origen" id="origen" placeholder="Origen">
+</div>
+
+<div class="search-form">
+    <label for="destino"></label>
+    <input type="text" name="destino" id="destino" placeholder="Destino">
+</div>
+
+<div class="search-form">
+    <label for="fecha-salida"></label>
+    <input type="text" name="fecha-salida" id="fecha-salida" placeholder="Fecha de salida">
+</div>
+
+<div class="search-form">
+    <label for="fecha-regreso"></label>
+    <input type="text" name="fecha-regreso" id="fecha-regreso" placeholder="Fecha de regreso">
+</div>
+<button type="submit" class="btn-guardar">GUARDAR</button>
+
+</form>
+
+    
     
 </body>
 </html>
