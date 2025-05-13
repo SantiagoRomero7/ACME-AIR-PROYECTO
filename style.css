@@ -555,4 +555,127 @@ body {
 
 /* CHECK IN CSS*/
 
+.checkin-container{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 20px; 
+  box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
+.logocheckin img{
+  width: 200px;
+  margin-bottom: 5px; 
+}
+
+
+.checkin-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ccc;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.logout {
+  font-size: 14px;
+}
+
+.logout a {
+  color: red;
+  text-decoration: none;
+}
+
+
+.flight-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+
+.flight-details {
+  text-align: left;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.flight-details .time {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.flight-details .duration,
+.flight-details .route {
+  font-size: 13px;
+  color: #555;
+}
+
+.flight-code {
+  font-weight: bold;
+  color: #888;
+  font-size: 16px;
+}
+
+.emergency-box {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.emergency-box h3 {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.emergency-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.emergency-form button {
+  width: 100%;
+  background-color: #2196f3;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
