@@ -25,46 +25,42 @@
         <a href="./index.html" class="cerrarsesion">Cerrar Sesion</a>
     </div>
 <hr>
-    <main class="seccion-busqueda">
-        <h1 class="search-tittle">Busqueda de Vuelos</h1>
-
-        <div class="trip-type">
-            <label class="radio-option">
-                <input type="radio" name="trip-type">
-                <span>Solo ida</span>
-
-        <div class="trip-type">
-            <label class="radio-option">
-                <input type="radio" name="trip-type">
-                <span>Ida y vuelta</span>
-            </label>
-        </div>
-
-<form action="./vuelosdisponibles.html" method="get" novalidate>
-
-    <label for="origen"></label>
-    <input type="text" name="origen" id="origen" placeholder="Origen">
-</div>
-
-<div class="search-form">
-    <label for="destino"></label>
-    <input type="text" name="destino" id="destino" placeholder="Destino">
-</div>
-
-<div class="search-form">
-    <label for="fecha-salida"></label>
-    <input type="text" name="fecha-salida" id="fecha-salida" placeholder="Fecha de salida">
-</div>
-
-<div class="search-form">
-    <label for="fecha-regreso"></label>
-    <input type="text" name="fecha-regreso" id="fecha-regreso" placeholder="Fecha de regreso">
-</div>
-<button type="submit" class="btn-guardar">BUSCAR</button>
-
-</form>
-
-    
+<main class="seccion-busqueda">
+    <h1 class="search-tittle">Busqueda de Vuelos</h1>
+  
+    <form action="./vuelosdisponibles.html" method="get" novalidate>
+  
+      <div class="trip-type">
+        <label class="radio-option">
+          <input type="radio" name="tipo-viaje" value="solo-ida" checked>
+          Solo ida
+        </label>
+        <label class="radio-option">
+          <input type="radio" name="tipo-viaje" value="ida-vuelta">
+          Ida y vuelta
+        </label>
+      </div>
+  
+      <div class="search-form">
+        <input type="text" name="origen" id="origen" placeholder="Origen">
+      </div>
+  
+      <div class="search-form">
+        <input type="text" name="destino" id="destino" placeholder="Destino">
+      </div>
+  
+      <div class="search-form">
+        <input type="text" name="fecha-salida" id="fecha-salida" placeholder="Fecha de salida">
+      </div>
+  
+      <div class="search-form">
+        <input type="text" name="fecha-regreso" id="fecha-regreso" placeholder="Fecha de regreso">
+      </div>
+  
+      <button type="submit" class="btn-guardar">BUSCAR</button>
+  
+    </form>
+  </main>
     
 </body>
 </html>

@@ -338,7 +338,7 @@
 .user-info {
   text-align: left;
   margin: 10px 20px 0 0;
-  font-size: 14px;
+  font-size: 20px;
   color: #333;
 }
 
@@ -347,7 +347,7 @@
 }
 
 .cerrarsesion {
-  font-size: 14px;
+  font-size: 15px;
   color: #cc0000;
   text-decoration: none;
   font-weight: bold;
@@ -359,22 +359,23 @@
 
 .search-tittle {
   color: #0059b2;
-  font-size: 24px;
-  margin-bottom: 1rem;
+  font-size: 35px;
+  margin-bottom: 3rem;
 }
 
 .trip-type {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 1rem;
   margin-bottom: 1rem;
+  flex-wrap: wrap;
 }
 
 .radio-option {
+  font-size: 16px;
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 16px;
 }
 
 .search-form {
@@ -384,8 +385,8 @@
 .search-form input {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  border: 2px solid#ccc;
+  border-radius: 10px;
   font-size: 1rem;
 }
 
@@ -407,7 +408,6 @@
   background-color: #0055aa;
 }
 
-/* RESPONSIVO */
 @media (max-width: 480px) {
   .search-form input {
     padding: 10px;
