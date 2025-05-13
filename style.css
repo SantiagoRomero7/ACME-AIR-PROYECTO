@@ -112,18 +112,18 @@
 
 /* REGISTRO CSS*/
 
+
 .registro-container {
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 2rem;
   background-color: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  text-align: left;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .registro-container h1 {
-  text-align: center;
   margin-bottom: 1.5rem;
   color: #0059b2;
 }
@@ -132,30 +132,29 @@
   display: block;
   margin-bottom: 0.3rem;
   font-weight: bold;
+  text-align: left;
 }
 
-.registro-container input {
+.registro-container input,
+.registro-container select {
   width: 100%;
   padding: 0.75rem;
   margin-bottom: 1.2rem;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 1rem;
+  background-color: #fff;
+  appearance: none;
 }
 
- .registro-container{
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 2rem;
-  background-color: #ffffff;
-  border-radius: 20px; 
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  text-align: center;
- }
+.form-group {
+  margin-bottom: 1.2rem;
+  text-align: left;
+}
 
- .logoregistro img{
+.logoregistro img {
   width: 200px;
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
 }
 
 /* RECUPERAR CONTRASEÑA CSS */
