@@ -316,3 +316,113 @@
 }
 
 /*BUSCAR VUELOS CSS*/
+
+.buscarvuelos-container{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 20px; 
+  box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logobuscarvuelos img{
+  width: 200px;
+  margin-bottom: 5px; 
+}
+
+.user-info {
+  text-align: left;
+  margin: 10px 20px 0 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.cerrarsesion {
+  font-size: 14px;
+  color: #cc0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cerrarsesion:hover {
+  text-decoration: underline;
+}
+
+.search-tittle {
+  color: #0059b2;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.trip-type {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 1rem;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+}
+
+.search-form {
+  margin-bottom: 1rem;
+}
+
+.search-form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.btn-guardar {
+  width: 100%;
+  padding: 15px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-guardar:hover {
+  background-color: #0055aa;
+}
+
+/* RESPONSIVO */
+@media (max-width: 480px) {
+  .search-form input {
+    padding: 10px;
+  }
+
+  .btn-guardar {
+    padding: 12px;
+  }
+
+  .seccion-busqueda {
+    margin-inline: 20px;
+  }
+
+  .trip-type {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
