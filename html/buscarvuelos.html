@@ -3,64 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACME AIR - Buscar Vuelos </title>
+    <title>ACME AIR - Buscar Vuelos</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
     <div class="desktop-warning">
-        <h2>Esta aplicaciòn solo està disponible para dispositivos mòviles</h2>
-        <p>Por favor accede desde un celular. </p>
+        <h2>Esta aplicación solo está disponible para dispositivos móviles</h2>
+        <p>Por favor accede desde un celular.</p>
     </div>
 
     <div class="mobile-only">
         <section class="buscarvuelos-container">
-            <div class="logobuscarvuelos" id="head">
+      
+            <div class="header-degradado">
                 <img src="../img/imagenlogo.png" alt="logo ACME AIR">
             </div>
- <hr>
-    <div class="user-info">
-        <span class="user-name">Santiago Romero</span>
-        
-        <a href="../index.html" class="cerrarsesion">Cerrar Sesion</a>
+
+            <hr>
+
+            <div class="user-info">
+                <span class="user-name">Santiago Romero</span>
+                <a href="../index.html" class="cerrarsesion">Cerrar Sesión</a>
+            </div>
+
+            <hr>
+
+            <main class="seccion-busqueda">
+                <h1 class="search-tittle">Búsqueda de Vuelos</h1>
+
+                <form action="./vuelosdisponibles.html" method="get" novalidate>
+
+                    <div class="trip-type">
+                        <label class="radio-option">
+                            <input type="radio" name="tipo-viaje" value="solo-ida" checked>
+                            Solo ida
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="tipo-viaje" value="ida-vuelta">
+                            Ida y vuelta
+                        </label>
+                    </div>
+
+                    <div class="search-form">
+                        <input type="text" name="origen" id="origen" placeholder="Origen">
+                    </div>
+
+                    <div class="search-form">
+                        <input type="text" name="destino" id="destino" placeholder="Destino">
+                    </div>
+
+                    <div class="search-form">
+                        <input type="text" name="fecha-salida" id="fecha-salida" placeholder="Fecha de salida">
+                    </div>
+
+                    <div class="search-form">
+                        <input type="text" name="fecha-regreso" id="fecha-regreso" placeholder="Fecha de regreso">
+                    </div>
+
+                    <button type="submit" class="btn-guardar">BUSCAR</button>
+
+                </form>
+            </main>
+        </section>
     </div>
-<hr>
-<main class="seccion-busqueda">
-    <h1 class="search-tittle">Busqueda de Vuelos</h1>
-  
-    <form action="./vuelosdisponibles.html" method="get" novalidate>
-  
-      <div class="trip-type">
-        <label class="radio-option">
-          <input type="radio" name="tipo-viaje" value="solo-ida" checked>
-          Solo ida
-        </label>
-        <label class="radio-option">
-          <input type="radio" name="tipo-viaje" value="ida-vuelta">
-          Ida y vuelta
-        </label>
-      </div>
-  
-      <div class="search-form">
-        <input type="text" name="origen" id="origen" placeholder="Origen">
-      </div>
-  
-      <div class="search-form">
-        <input type="text" name="destino" id="destino" placeholder="Destino">
-      </div>
-  
-      <div class="search-form">
-        <input type="text" name="fecha-salida" id="fecha-salida" placeholder="Fecha de salida">
-      </div>
-  
-      <div class="search-form">
-        <input type="text" name="fecha-regreso" id="fecha-regreso" placeholder="Fecha de regreso">
-      </div>
-  
-      <button type="submit" class="btn-guardar">BUSCAR</button>
-  
-    </form>
-  </main>
-    
+
 </body>
 </html>
